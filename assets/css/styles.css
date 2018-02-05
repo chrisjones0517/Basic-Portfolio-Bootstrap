@@ -223,6 +223,17 @@ aside p {
     padding-top: 2rem;
 }
 
+.contact-info {
+    padding: 2rem 0;
+}
+
+.center-left {
+    width: 22rem;
+    text-align: left;
+    font-size: 1.5rem;
+    margin: auto;
+}
+
 #main {
     background-image: url('../images/cork-wallet.png');
 }
