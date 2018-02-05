@@ -1,0 +1,256 @@
+.backdrop {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.navHeader {
+    background-color: #333;
+    border-radius: 0;
+    margin-bottom: 0;
+  
+}
+
+header {
+    color: #ffffff;
+    border-bottom: 10px solid #0299ad;
+}
+
+.hero-text {
+    position: relative;
+    z-index: 0;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.highlight {
+    color: #0299ad;
+    letter-spacing: 0.2rem;
+    font-weight: bold;
+}
+
+.vertical-center {
+    display: flex;
+
+}
+
+.jumbotron-special {
+    background-image: url("../images/background.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 80vh;
+    color: #f3f3f3;
+    border-radius: 0;
+    margin-bottom: 0;
+}
+
+#showcase {
+    text-align: center;
+}   
+
+#hero-heading {
+    font-size: 2.5rem;
+    margin-bottom: 7rem;
+}
+
+#hero-p {
+    font-size: 1.4rem;
+}
+
+#hero-heading, #hero-p {
+    position: relative;
+    color: #f3f3f3;
+    z-index: 1;
+    text-shadow: 2px 2px 2px #000000, -2px -2px 2px #000000;
+}
+
+#portfolio {
+    background-color: #333;
+    text-align: center;
+    color: #f3f3f3;
+    margin-top: 0;
+    margin-bottom: 2rem;
+    height: 10rem;
+}
+
+#portfolioH2 {
+    padding: 3.5rem 0;
+}
+
+.center {
+    margin-bottom: 1rem;
+}
+
+.hero-p {
+    padding: 1.5rem 0;
+}
+
+ul {
+    margin: auto;
+}
+
+.nav-pills .nav-link.active {
+    background-color: #00ff00;
+}
+
+.nav-pills .nav-link:hover {
+    background-color: #0299ad;
+}
+
+#boxes {
+    text-align: center;
+    background-image: url('../images/cork-wallet.png');
+    background-repeat: repeat;
+    background-size: cover;
+    margin-top: -2rem;
+    padding-top: 2rem;
+}
+
+.background {
+    background-image: url('../images/cork-wallet.png');
+    background-repeat: repeat;
+    background-size: cover;
+}
+
+#boxes p {
+    font-weight: 600;
+    padding-top: 1rem;
+}
+
+.spacer {
+    margin-bottom: 2rem;
+}
+
+footer {
+    background-color: #0299ad;
+    font-weight: 700;
+    text-align: center;
+}
+
+.logo {
+    padding-bottom: 3rem;
+}
+
+footer p {
+    padding-top: 1rem;
+}
+
+.hidden {
+    display: none;
+}
+
+.sidebar {
+    background-color: #333;
+    color: #ffffff;
+}
+
+.sidebar h3 {
+    padding: 2rem 0;
+}
+
+.about p{
+    font-weight: 600;
+    padding-bottom: 3rem;
+}
+
+aside p {
+    padding-bottom: 3rem;
+}
+
+.about img {
+    float: right;
+    margin-left: 0.25rem;
+}
+
+.about h3 {
+    padding: 2rem 0;
+}
+
+#portfolioBox {
+    text-align: center;
+    padding-bottom: 2rem;
+}
+
+#portfolioBox h2 {
+    padding-bottom: 2rem;
+}
+
+.spacer3 {
+    position: relative;
+    background-color: #0299ad;
+    top: -2rem;
+    height: 10px;
+}
+
+.spacer2 {
+    color: #ffffff;
+    background-color: #333;
+    text-align: center;
+    height: 10rem;
+    margin-top: -2rem;
+}
+
+.spacer2 h2 {
+    padding-top: 3.5rem;
+}
+
+.card-body {
+    background-image: url(../images/halftone-yellow.png);
+}
+
+.cardBox {
+    padding-bottom: 4rem;
+}
+
+.card {
+    margin-top: 4rem;
+    box-shadow: 5px 10px #888888;
+    border: 1px solid #000000;
+}
+
+#links {
+    position: relative;
+    display: inline-block;
+    bottom: 20rem;
+    left: 50vw;
+    height: 68px;
+    width: 203px;
+}
+
+#contactArea {
+    display: inline-block;
+    margin-left: 10vw;
+    padding-top: 2rem;
+}
+
+#main {
+    background-image: url('../images/cork-wallet.png');
+}
+
+#offset {
+    position: relative;
+    top: 0.03rem;
+    left: 0.1rem;
+}
+
+@media only screen and (max-width: 770px) {
+    #links {
+        display: block;
+        position: static;
+        margin: auto;
+    }
+    #contactArea {
+        width: 100%;
+        margin: auto;
+    }
+    .centerForm {
+        margin: auto;
+        width: 17.5rem;
+    }
+    .centerLinks {
+        margin: auto;
+        width: 100%;
+        padding: 2rem 0;
+    }
+}
