@@ -206,6 +206,16 @@ aside p {
     border: 1px solid #000000;
 }
 
+.portfolioHead {
+    padding-top: 2rem;
+}
+
+.portfolioHead h2 {
+    padding-top: 1.4rem;
+    font-size: 2.2rem;
+    font-weight: 700;
+}
+
 #links {
     position: relative;
     display: inline-block;
@@ -240,6 +250,10 @@ aside p {
     position: relative;
     top: 0.03rem;
     left: 0.1rem;
+}
+
+#myFooter {
+    margin-top: -0.05rem;
 }
 
 @media only screen and (max-width: 770px) {
