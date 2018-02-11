@@ -279,6 +279,9 @@ aside p {
      .footNav nav ul li {
         width: 100%;
      }
+     #contactArea {
+         margin-left: 0;
+     }
  }
 
 
