@@ -15,6 +15,14 @@ header {
     border-bottom: 10px solid #0299ad;
 }
 
+h1 {
+    font-size: 4rem;
+}
+
+nav {
+    margin-bottom: -2.5rem;
+}
+
 .hero-text {
     position: relative;
     z-index: 0;
@@ -83,10 +91,6 @@ header {
 
 .hero-p {
     padding: 1.5rem 0;
-}
-
-ul {
-    margin: auto;
 }
 
 .nav-pills .nav-link.active {
@@ -217,10 +221,6 @@ aside p {
 }
 
 #links {
-    position: relative;
-    display: inline-block;
-    bottom: 20rem;
-    left: 50vw;
     height: 68px;
     width: 203px;
 }
@@ -256,23 +256,29 @@ aside p {
     margin-top: -0.05rem;
 }
 
+.footNav {
+    background-color: #333;
+    height: 3.5rem;
+}
+
 @media only screen and (max-width: 770px) {
-    #links {
-        display: block;
-        position: static;
-        margin: auto;
-    }
-    #contactArea {
-        width: 100%;
-        margin: auto;
-    }
-    .centerForm {
-        margin: auto;
-        width: 17.5rem;
-    }
-    .centerLinks {
-        margin: auto;
-        width: 100%;
-        padding: 2rem 0;
+    h1 {
+        font-size: 3rem;
     }
 }
+
+@media only screen and (max-width: 575px) {
+    ul {
+        width: 100%;
+    }
+}
+ @media only screen and (max-width: 363px) {
+     .footNav {
+         height: 11rem;
+     }
+     .footNav nav ul li {
+        width: 100%;
+     }
+ }
+
+
