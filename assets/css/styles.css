@@ -272,16 +272,23 @@ aside p {
         width: 100%;
     }
 }
- @media only screen and (max-width: 363px) {
-     .footNav {
-         height: 11rem;
-     }
-     .footNav nav ul li {
-        width: 100%;
-     }
-     #contactArea {
-         margin-left: 0;
-     }
- }
+
+@media only screen and (max-width: 400px) {
+    #hero-p {
+        font-size: 1rem;
+    }
+}
+
+@media only screen and (max-width: 363px) {
+    .footNav {
+        height: 11rem;
+    }
+    .footNav nav ul li {
+       width: 100%;
+    }
+    #contactArea {
+        margin-left: 0;
+    }
+}
 
 
