@@ -18,6 +18,43 @@ header {
 h1 {
     font-size: 4rem;
 }
+
+.splEffect {
+    animation-name: splEffect;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes splEffect {
+   0% {background: linear-gradient(to right, #ffffff , #ffffff, #ffffff, #ffffff, #ffffff);}
+   0% {-webkit-text-fill-color: transparent;}
+   0% {background-clip: text;}
+   0% {-webkit-background-clip: text;}
+   90% {background: linear-gradient(to right, #ffffff , #ffffff, #ffffff, #ffffff, #ffffff);}
+   90% {-webkit-text-fill-color: transparent;}
+   90% {background-clip: text;}
+   90% {-webkit-background-clip: text;}
+   92% {background: linear-gradient(to right, #8cd8fc , #ffffff, #ffffff, #ffffff, #ffffff);}
+   92% {-webkit-text-fill-color: transparent;}
+   92% {background-clip: text;}
+   92% {-webkit-background-clip: text;}
+   94% {background: linear-gradient(to right, #ffffff , #8cd8fc, #ffffff, #ffffff, #ffffff);}
+   94% {background-clip: text;}
+   94% {-webkit-text-fill-color: transparent;}
+   94% {-webkit-background-clip: text;}
+   96% {background: linear-gradient(to right, #ffffff , #ffffff, #8cd8fc, #ffffff, #ffffff);}
+   96% {background-clip: text;}
+   96% {-webkit-text-fill-color: transparent;}
+   96% {-webkit-background-clip: text;}
+   98% {background: linear-gradient(to right, #ffffff , #ffffff, #ffffff, #8cd8fc, #ffffff);}
+   98% {background-clip: text;}
+   98% {-webkit-text-fill-color: transparent;}
+   98% {-webkit-background-clip: text;}
+   100% {background: linear-gradient(to right, #ffffff , #ffffff, #ffffff, #ffffff, #8cd8fc);}
+   100% {background-clip: text;}
+   100% {-webkit-text-fill-color: transparent;}
+   100% {-webkit-background-clip: text;}
+}
  
 nav {
     margin-bottom: -2.5rem;
