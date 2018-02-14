@@ -183,6 +183,7 @@ footer p {
 .sidebar {
     background-color: #333;
     color: #ffffff;
+    margin-bottom: -0.1rem;
 }
 
 .sidebar h3 {
